@@ -1,0 +1,433 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Api\\Cadastro.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
+        "projectName": "Cadastro.Adapter",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Api\\Cadastro.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Api\\Cadastro.Api.csproj",
+        "projectName": "Cadastro.Api",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Api\\Cadastro.Api.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj"
+              },
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
+        "projectName": "Cadastro.Application",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FastMapper.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "projectName": "Cadastro.Domain",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
+        "projectName": "Cadastro.Infrastructure.CrossCutting",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\Cadastro.Infrastructure.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj"
+              },
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Application\\Cadastro.Application.csproj"
+              },
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              },
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "projectName": "Cadastro.Infrastructure.Data",
+        "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\Cadastro.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\wesley.bezerra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesley.bezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Domain\\Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

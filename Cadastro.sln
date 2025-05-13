@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Api", "Cadastro.Api\Cadastro.Api.csproj", "{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Application", "Cadastro.Application\Cadastro.Application.csproj", "{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Domain", "Cadastro.Domain\Cadastro.Domain.csproj", "{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Infrastructure.CrossCutting", "Cadastro.Infrastructure.CrossCutting\Cadastro.Infrastructure.CrossCutting.csproj", "{F486EADB-4A03-4573-BB21-5E8B99014064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Infrastructure.Data", "Cadastro.Infrastructure.Data\Cadastro.Infrastructure.Data.csproj", "{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Adapter", "Cadastro.Adapter\Cadastro.Adapter.csproj", "{90F057BA-E651-446D-83D5-098F34E2A834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA83E3A-2EA2-4799-84FD-9F46BD75BC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCBC5C5-5F2A-48A0-9086-8CE2BC236DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8647E9-BBD6-4AC8-9875-12BA02DF0C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F486EADB-4A03-4573-BB21-5E8B99014064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F486EADB-4A03-4573-BB21-5E8B99014064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F486EADB-4A03-4573-BB21-5E8B99014064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F486EADB-4A03-4573-BB21-5E8B99014064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0F1E72-E758-4E74-BEC3-441F8FE813F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F057BA-E651-446D-83D5-098F34E2A834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F057BA-E651-446D-83D5-098F34E2A834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F057BA-E651-446D-83D5-098F34E2A834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F057BA-E651-446D-83D5-098F34E2A834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94E105C2-AFF8-494A-866B-C0E6F9C14774}
+	EndGlobalSection
+EndGlobal

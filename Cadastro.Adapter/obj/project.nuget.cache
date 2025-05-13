@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bnbqz62UPLwk9AWwP8ebf3rpocG+wXp43MB150wsJfPV6THVvkk8bLt566bKX5e6GLmEZJfa24acJooZh7rATw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wesley.bezerra\\Desktop\\Estudos\\NestJS_DotNet_Golang_Python_PHP\\cadastro.dotnet\\Cadastro.Adapter\\Cadastro.Adapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wesley.bezerra\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
