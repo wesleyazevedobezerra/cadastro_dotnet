@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "PSZ9+GFGvjBaDFTryVvUMegBGELrH3k5gzACYqJBQNg=",
+  "Hash": "8X2QoHaVP5aLzJuxguFRVPzmvVd80PetLaqnRWMQTnM=",
   "Source": "Cadastro.Api",
   "BasePath": "_content/Cadastro.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
